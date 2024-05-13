@@ -1,0 +1,22 @@
+:root{
+  --primaryColor: #90A959; /* 기본 테마의 주 색상 */
+  --secondColor: #E9B872; /* 기본 테마의 보조 색상 */
+  --mainWhite: #fff; /* 기본 테마의 흰색 */
+  --mainBlack: #222; /* 기본 테마의 검은색 */
+  --mainRed: #C45151; /* 기본 테마의 빨간색 */
+  --mainGreen: #4CAF50; /* 기본 테마의 초록색 */
+}
+
+*{
+  margin: 0; /* 모든 요소의 마진을 0으로 설정 */
+  box-sizing: border-box; /* 모든 요소의 박스 사이징을 border-box로 설정 */
+}
+
+body {
+  background: var(--secondColor); /* 바디 배경색을 보조 색상으로 설정 */
+  color: var(--mainBlack); /* 바디 텍스트 색상을 검은색으로 설정 */
+}
+
+h1 {
+  margin: 1rem 0; /* h1 요소의 상하 마진을 1rem으로 설정, 오타 수정 'ren' -> 'rem' */
+}
